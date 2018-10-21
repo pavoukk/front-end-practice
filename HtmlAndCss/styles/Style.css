@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.whole__picture{
+    padding: 40px 60px;
+}
+
+.left__side{
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 60px;
+    width: 430px;
+}
+
+.right__side{
+    display: inline-block;
+    margin:0;
+    vertical-align: top;
+    width: 740px;
+    height: 340px;
+}
+.about-me{
+    display: block;
+    font-size: 23px;
+    margin: 0;
+    padding: 10px 30px;
+    font-family: Arial;
+    color: #424243;
+    background-color: #e8c734;
+}
+.about__me__text{
+    display: block;
+    margin: 0;
+    color: #424243;
+    padding-top: 35px;
+    font-family: Arial;
+    line-height: 30px;
+    size: 18px;
+}
