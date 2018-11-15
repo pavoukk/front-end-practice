@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+.skills__body{
+    margin: 100px 122px 100px 108px;
+}
+.skills__title{
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-size: 33px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding: 25px 75px 25px 40px;
+    margin: 0 0 50px 0;
+    background-color: #e8c734;
+    display: inline-block;
+}
+.skills__list{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.skills__item{
+    margin:0;
+    font-size: 31px;
+    color: #1a1a1a;
+    font-family: "Roboto", sans-serif;
+}
+.item__property{
+    margin: 24px 0 50px 0;
+    position: relative;
+    width: 620px;
+    height: 28px;
+    border: 1px solid #bbbcbe;
+}
+.item__property:before{
+    content: '';
+    position: absolute;
+    background-color: #bbbcbe;
+    height: 100%;
+}
+.communication:before {
+    width: 458px;
+}
+.creativity:before {
+    width: 547px;
+}
+.teamwork:before {
+    width: 458px;
+}
+.organization:before {
+    width: 547px;
+}
+.leadership:before {
+    width: 458px;
+}
+.teamplayer:before{
+    width:547px;
+}
