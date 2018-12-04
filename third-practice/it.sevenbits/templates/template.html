@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+<form action="/signup" method="post" class="registration" >
+    <h1 class="registration__header">Давайте начнем!</h1>
+    <label class="registration__label label" for="firstname">Имя</label>
+    <input class="registration__field field" type="text" name="firstname" id="firstname">
+    <label class="registration__label label" for="lastname">Фамилия</label>
+    <input class="registration__field field" type="text" name="lastname" id="lastname">
+    <label class="registration__label label">Ваш пол</label>
+    <label class="registration__sex sex">
+        <input type="radio" name="sex" value="male" checked> Женский
+    </label>
+    <label class="registration__sex sex">
+        <input type="radio" name="sex" value="female"> Мужской
+    </label>
+    <label class="registration__label label" for="email">Введите электронный адрес</label>
+    <input class="registration__field field" type="email" name="email" id="email" placeholder="email@gmail.com">
+    <label class="registration__label label" for="password">Придумайте пароль</label>
+    <input class="registration__field field" type="password" name="password" id="password">
+    <label class="registration__checkbox checkbox">
+        <input type="checkbox">
+    </label>
+    <p class="registration__conditions">
+        Я принимаю условия <a class="registration__link link" href="#">Пользовательского соглашения</a>
+        и даю своё согласие на обработку моих персональных данных
+        на условиях, определенных <a class="registration__link link" href="#">Политикой конфиденциальности</a>.
+    </p>
+    <input class="registration__submit submit" type="submit" name="submit" value="Зарегистрироваться">
+</form>
+</body>
+</html>
