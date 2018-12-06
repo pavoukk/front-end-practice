@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto;
+}
+.blog-post {
+    max-width: 100%;
+    text-align: center;
+}
+.blog-post__title {
+    font-family: "Dosis", sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    color: #000000;
+    text-align: center;
+    margin: 170px 0 50px 0;
+    text-transform: uppercase;
+}
+.blog-post__description {
+    max-width: 735px;
+    height: 71px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #798285;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog-post__albums {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.albums__item {
+    margin-top:110px;
+}
+.albums__album {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width:500px;
+    max-width: 500px;
+    /*height:280px;*/
+}
+.album__release-date {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #858585;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.album__name {
+    margin-top:12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.album__name:before {
+    margin-top: -12px;
+    content: '';
+    background-color:black;
+    position: absolute;
+    height:1px;
+    width:500px;
+    max-width: 500px;
+    /*margin-top:-12px;*/
+
+}
+.albums__about {
+    margin-left: 40px;
+    display: inline-block;
+    max-width: 667px;
+    text-align: left;
+}
+.albums__short-description {
+    text-align: left;
+    font-size: 23px;
+    margin:0;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+.albums__long-description {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #acacac;
+    font-family: "Open Sans", sans-serif;
+}
+.albums__play-button, .button {
+    text-decoration: none;
+    margin-top:25px;
+    font-size: 14px;
+    padding: 24px 80px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #000000;
+    text-align: left;
+}
+.blog-post__footer {
+    background-image: url("../images/beautiful.png");
+    height: 787px;
+}
+@media screen and (max-width: 750px) {
+    .blog-post__header, .blog-post__albums {
+        margin: 0 50px;
+    }
+    .button {
+        text-align: center;
+    }
+
+    .albums__item {
+        text-align: left;
+    }
+
+    .albums__about {
+        margin-left: 0;
+        text-align: center;
+    }
+    .album__name {
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .album__name:before {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        width: 650px;
+        max-width: 650px;
+        height:1px;
+        background-color: black;
+    }
+    .blog-post__footer {
+        /*content: '';*/
+        height: 787px;
+        width: 750px;
+        /*width: 2000px;*/
+        /*position: relative;*/
+        /*left:-650px;*/
+
+        /*width:650px;*/
+        /*max-width: 650px;*/
+    }
+}
